@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "design_members",
+  "info": {
+    "name": "DesignMembers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "members.members"
+    }
+  }
+}

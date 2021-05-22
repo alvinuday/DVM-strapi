@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backend_members",
+  "info": {
+    "name": "BackendMembers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "members.members"
+    }
+  }
+}

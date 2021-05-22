@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_members_members",
+  "info": {
+    "name": "Members",
+    "icon": "child",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "batch": {
+      "type": "string"
+    },
+    "photoLink": {
+      "type": "string"
+    },
+    "instagramLink": {
+      "type": "string"
+    },
+    "twitterLink": {
+      "type": "string"
+    },
+    "facebookLink": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
+    },
+    "behanceLink": {
+      "type": "string"
+    },
+    "dribbleLink": {
+      "type": "string"
+    },
+    "linkedInLink": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Projects",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "teamsInvolved": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "projectDescription": {
+      "type": "richtext"
+    },
+    "heroSectionImageLink": {
+      "type": "string"
+    }
+  }
+}

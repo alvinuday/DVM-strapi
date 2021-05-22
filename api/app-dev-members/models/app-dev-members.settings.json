@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_dev_members",
+  "info": {
+    "name": "AppDevMembers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "members.members"
+    }
+  }
+}

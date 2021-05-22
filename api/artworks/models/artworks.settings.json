@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artworks",
+  "info": {
+    "name": "Artworks",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "artistName": {
+      "type": "string"
+    },
+    "titleArtwork": {
+      "type": "string"
+    },
+    "aboutArtwork": {
+      "type": "richtext"
+    },
+    "imageLink": {
+      "type": "string"
+    },
+    "dribbleLink": {
+      "type": "string"
+    },
+    "behanceLink": {
+      "type": "string"
+    },
+    "instagramLink": {
+      "type": "string"
+    },
+    "otherLinks": {
+      "type": "string"
+    }
+  }
+}

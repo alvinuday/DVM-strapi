@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_ux_members",
+  "info": {
+    "name": "UI/UXMembers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "members.members"
+    }
+  }
+}

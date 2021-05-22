@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "front_end_members",
+  "info": {
+    "name": "FrontEndMembers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "members.members"
+    }
+  }
+}
